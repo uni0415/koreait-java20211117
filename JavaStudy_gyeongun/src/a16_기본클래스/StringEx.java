@@ -1,0 +1,20 @@
+package a16_기본클래스;
+
+import java.util.Scanner;
+
+public class StringEx {
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.println("이름입력: ");
+		String name = in.nextLine();
+		
+		String name1 = "김준일";
+		String name2 = "김준일";
+		String name3 = new String();
+		
+		System.out.println(name1 == name2);
+		System.out.println(name.equals("김준일"));
+		System.out.println(name3);
+		
+	}
+}
